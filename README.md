@@ -27,7 +27,7 @@ In this challenge, you'll recreate a web representation of the provided Figma pr
 4. **Responsive Design**: Test and adjust layouts to ensure they respond correctly on Desktop, Tablet, and Mobile viewports.
 
 ## Project Links
-- **GitHub Repository:** [Link to Repository]([https://github.com/rob2fresh4this/Cookware-Website-Project/edit/main/README.md](https://github.com/rob2fresh4this/Cookware-Website-Project/blob/main/README.md)) (add your repository link here)
+- **GitHub Repository:** [Link to Repository](https://github.com/rob2fresh4this/Cookware-Website-Project/tree/main) (add your repository link here)
 
 ## Comments
 Ensure your code is well-commented, with links to the GitHub repository included in your comments, especially in the HTML file.
