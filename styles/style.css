@@ -147,14 +147,14 @@ body {
 .card-content2 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Ensures space between text and button */
+    justify-content: space-between;
     height: 100%;
     padding: 16px;
     box-sizing: border-box;
 }
 
 .card-text {
-    margin-bottom: auto; /* Allows button to stay at the bottom */
+    margin-bottom: auto;
 }
 
 .card-title2 {
