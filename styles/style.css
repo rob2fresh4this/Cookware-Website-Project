@@ -203,14 +203,14 @@ body {
     width: 32%;
     height: 30rem;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    background-color: #f0f0f0; /* Optional for visibility */
+    justify-content: center; 
+    align-items: center; 
+    background-color: #f0f0f0; 
 }
 
 .container5-content {
     display: flex;
-    
+
 }
 
 
