@@ -375,6 +375,80 @@ body {
 }
 
 
+/* medium-screen */
 
-@media screen and (min-width: 925px) and (max-width: 955px) {
+@media screen and (min-width: 925px) and (max-width: 1366px){
+
+}
+
+/* i pad */
+@media screen and (max-width: 924px){
+
+}
+
+/* mobile */
+@media (max-width: 768px){
+  .container1-content {
+    width: 50%;
+    margin-left: 0;
+  }
+
+  .container2-pot-content {
+    flex-direction: column;
+  }
+
+  .card1 {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .container3-content {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .container3-card {
+    width: 100%;
+  }
+
+  .container4-card-container {
+    flex-direction: column;
+  }
+
+  .card2 {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .container5-content-container {
+    flex-direction: column;
+  }
+
+  .size3 {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .container6 {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .container6-item-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contaniner62 {
+    max-width: 100%;
+  }
+
+  .sixtyPer {
+    width: 100%;
+  }
+
+  .fortyPer {
+    width: 100%;
+    margin-left: 0;
+  }
 }
