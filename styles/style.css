@@ -1,13 +1,31 @@
 :root {
   --circle-size: 15px; /* Default size */
   --circle-size-picked: 23px; /* Size when picked */
+  --footer-promo-bg: #1e2c20;
+  --accent-color: #982a1c !important;
 }
+  
 
 body {
   margin: 0%;
   padding: 0%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+}
+
+.text-color3 {
+  color: #982a1c !important;
+}
+
+.nav-link:hover {
+  color: #b73a2a !important;
+  text-decoration: underline;
+}
+
+.smaller-text {
+  font-size: 0.6rem;
+  padding: 0%;
+  margin: 0%;
 }
 
 .darken-on-hover:hover {
@@ -35,13 +53,38 @@ body {
   height: 100%;
 }
 
+.container0{
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--footer-promo-bg);
+  color: white;
+}
+
 .container1 {
   background-image: url(../assets/images/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 44rem;
+  height: 43rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.container1-content {
+  font-size: 2rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  background-color: rgba(0, 0, 0, 0.6); 
+  color: #fff; /* White text */
+  align-self: flex-start;
+  margin-bottom: 5rem;
+  margin-left: 4.3rem;
 }
 
 .container2 {
@@ -119,121 +162,219 @@ body {
 }
 
 .container4-card-container {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
 }
 
 .card2 {
-    width: 30%;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 8px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    box-sizing: border-box;
-    height: 45rem;
+  width: 30%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+  height: 45rem;
 }
 
 .card-image2 {
-    width: 100%;
-    height: 19rem !important;
-    object-fit: cover;
+  width: 100%;
+  height: 19rem !important;
+  object-fit: cover;
 }
 
 .card-content2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    padding: 16px;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 16px;
+  box-sizing: border-box;
 }
 
 .card-text {
-    margin-bottom: auto;
+  margin-bottom: auto;
 }
 
 .card-title2 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 0;
-    margin-bottom: 8px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 8px;
 }
 
 .card-description2 {
-    font-size: 0.9rem;
-    color: #555;
-    line-height: 1.5;
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.5;
 }
 
 .card-button2 {
-    align-self: flex-start;
-    margin-top: 16px;
-    padding: 10px 20px;
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.9rem;
+  align-self: flex-start;
+  margin-top: 16px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
 }
 
 .card-button2:hover {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 .container5 {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
-.container5-content-container{
-    display: flex;
-    justify-content: space-between;
+.container5-content-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .size3 {
-    width: 32%;
-    height: 30rem;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    background-color: #f0f0f0; 
+  width: 32%;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
 }
 
 .container5-content {
-    display: flex;
+  display: flex;
+}
 
+.picture {
+  background-image: url(../assets/images/Reviews1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.picture1 {
+  background-image: url(../assets/images/Reviews2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.picture2 {
+  background-image: url(../assets/images/Reviews3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.head5{
+  text-align: center;
+}
+
+.container5-content {
+  max-width: 80%;
+  padding: 2rem;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.6); 
+  color: #fff; /* White text */
+  border-radius: 10px; 
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+}
+
+.container6 {
+  background-color: #1e2c20;
+  color: white;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* Left section containing "About Our Home," "Products," and "Customer Service" */
+.container6-item-container {
+  display: flex;
+  gap: 40px;
+  flex: 1; /* Ensures it takes up available space */
+}
+
+.container6-item-content h6 {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.container6-item-content p {
+  font-size: 0.875rem;
+  margin: 5px 0;
+  color: #d3d3d3; /* Light gray text color */
+}
+
+/* Right section containing subscription and social icons */
+.contaniner62 {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.contaniner62a {
+  color: #d3d3d3;
+  font-size: 0.875rem;
+}
+
+.contaniner62a i {
+  padding-top: .5rem;
+}
+
+.contaniner62a p {
+  margin-bottom: 10px;
+}
+
+/* Styling for input and button */
+.sixtyPer {
+  width: 60%;
+  padding: 8px;
+  background-color: #2f3e30;
+  color: #d3d3d3;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+}
+
+.fortyPer {
+  width: 35%;
+  padding: 8px;
+  background-color: #2f3e30;
+  color: #d3d3d3;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+/* Social media icons */
+.contaniner62a i {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  color: #d3d3d3;
+}
+
+.contaniner62a i:hover {
+  color: white;
 }
 
 
-.picture{
-    background-image: url(../assets/images/Reviews1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.picture1{
-    background-image: url(../assets/images/Reviews2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.picture2{
-    background-image: url(../assets/images/Reviews3.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
 
 @media screen and (min-width: 925px) and (max-width: 955px) {
 }
