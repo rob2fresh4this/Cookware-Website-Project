@@ -38,3 +38,6 @@ Ensure your code is well-commented, with links to the GitHub repository included
 Feel free to enhance the design with animations or hover effects, ensuring they align with the Figma prototype and the project's scope.
 
 Happy coding!
+
+Peer Reviewer: Mike Heckerman
+Comments: The site looks pretty close to the desktop. I would space the links in the navbar apart some. I did notice that the hover effect in the best sellers is missing, should be an easy fix. On the mobile I noticed that the hamburger doesn't go to an off canvas, honestly I struggled with it for a long while. I also noticed that the best seller cards bleed into each other and blows out of the borders for the cards when they are going from desktop to mobile, the issue seems to be in the tablet range, I couldn't see an easy fix right away, I say just play with it till something clicks. On the footer I noticed that the product section needs to go next to the about our home section. Other then these small issues your site works fine. Good Job Dude.
