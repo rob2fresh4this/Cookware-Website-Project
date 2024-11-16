@@ -39,5 +39,32 @@ Feel free to enhance the design with animations or hover effects, ensuring they 
 
 Happy coding!
 
-Peer Reviewer: Mike Heckerman
-Comments: The site looks pretty close to the desktop. I would space the links in the navbar apart some. I did notice that the hover effect in the best sellers is missing, should be an easy fix. On the mobile I noticed that the hamburger doesn't go to an off canvas, honestly I struggled with it for a long while. I also noticed that the best seller cards bleed into each other and blows out of the borders for the cards when they are going from desktop to mobile, the issue seems to be in the tablet range, I couldn't see an easy fix right away, I say just play with it till something clicks. On the footer I noticed that the product section needs to go next to the about our home section. Other then these small issues your site works fine. Good Job Dude.
+# Peer Review Feedback
+
+**Peer Reviewer:** Mike Heckerman  
+
+## Comments  
+
+### General Feedback  
+The site looks pretty close to the desktop version.  
+
+### Suggestions for Improvement  
+1. **Navbar**  
+   - [Checked] Space the links in the navbar apart a bit more.  
+
+2. **Best Sellers Section**  
+   -  [Checked]  The hover effect for the best sellers is missing. This should be an easy fix.  
+
+3. **Mobile View**  
+   -  [?]  The hamburger menu doesn’t go to an off-canvas layout.  
+     - Note: I’ve struggled with this before, so it might take some effort to resolve.  
+
+4. **Responsive Design Issues**  
+   -  [Checked]  The best seller cards bleed into each other and break out of their borders when transitioning from desktop to mobile (specifically in the tablet range). This issue didn’t have an obvious fix, so you may need to experiment with different approaches until something works.  
+
+5. **Footer**  
+   -  [Checked?]  The "Product" section needs to be positioned next to the "About Our Home" section.  
+
+### Final Thoughts  
+Aside from these small issues, your site works fine. Great job, dude!  
+
