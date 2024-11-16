@@ -1,3 +1,26 @@
+# Your Name: Robert Grijalva
+
+## Date Revised: [11/15/24]  
+
+### Exercise or Lab Name  
+[Cookware Website]  
+
+---
+
+## Revision History  
+
+### [11/12/24]  
+- [Got the basic set up done and some skeleton done]  
+
+### [11/13/24]  
+- [worked on skeleton]  
+
+### [11/14/24]  
+- [Finished up skeleton & started up deatails & respinsiveness]  
+
+### [11/15/24]  
+- [Finished up & worked on peer review] 
+
 # Figma Prototype Challenge
 
 In this challenge, you'll recreate a web representation of the provided Figma prototype, following the specified requirements for responsive design and CSS systems. 
